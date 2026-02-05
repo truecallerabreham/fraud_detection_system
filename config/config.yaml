@@ -1,0 +1,2 @@
+data: path:/content/drive/MyDrive/fraud-detection-system/data/raw/Base.csv
+  test_size:0.2
