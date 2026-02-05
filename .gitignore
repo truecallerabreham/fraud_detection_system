@@ -1,4 +1,37 @@
-myenv/
+# Python
 __pycache__/
+*.py[cod]
 *.pyc
-.env
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+*.egg
+*.eggs/
+dist/
+build/
+*.cover
+.pytest_cache/
+.mypy_cache/
+
+# Virtual env
+fraud_env/
+myenv/
+*.venv
+
+# Data/Models (large files in Drive)
+data/*
+!data/.gitkeep  # If you add placeholders
+models/*
+!models/.gitkeep
+
+# DVC cache
+.dvc/cache/
+
+# Misc
+*.swp
+*.bak
+*.tmp
+*.log
+*.DS_Store
+Thumbs.db
