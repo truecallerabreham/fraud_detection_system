@@ -20,6 +20,11 @@ myenv/
 *.venv
 
 # Data/Models (large files in Drive)
+data/*
+!data/.gitkeep  # If you add placeholders
+models/*
+!models/.gitkeep
+
 # DVC cache
 .dvc/cache/
 
